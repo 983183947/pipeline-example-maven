@@ -620,7 +620,26 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-
+<repositories>
+    
+        <repository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+  
+        <repository>
+            <id>jeecg</id>
+            <name>jeecg Repository</name>
+            <url>http://maven.jeewx.com/nexus/content/repositories/jeecg</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 	<pluginRepositories>
 		<!-- For testing against latest Spring snapshots -->
 		<pluginRepository>
