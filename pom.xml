@@ -609,38 +609,6 @@
             </snapshots>
         </repository>
     </repositories>
-	<pluginRepositories>
-		<!-- For testing against latest Spring snapshots -->
-		<pluginRepository>
-			<id>spring-snapshot</id>
-			<name>SpringSource Snapshot Repository</name>
-			<url>http://repo.springsource.org/snapshot</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</pluginRepository>
-		<!-- For Spring releases -->
-		<pluginRepository>
-			<id>spring-repository</id>
-			<name>SpringSource Repository</name>
-			<url>http://repo.springsource.org/release</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-		<!-- For developing against latest Spring milestones -->
-		<pluginRepository>
-			<id>spring-milestone</id>
-			<name>SpringSource Milestone Repository</name>
-			<url>http://repo.springsource.org/milestone</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
 
 	<distributionManagement>
 		<!-- Temporary until we have a need to publish to a remote release repository -->
